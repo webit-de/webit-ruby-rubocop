@@ -1,0 +1,9 @@
+inherit_from: ./config.yml
+
+plugins:
+  - rubocop-internal_affairs
+
+AllCops:
+  TargetRubyVersion: 2.6.0
+  SuggestExtensions:
+    rubocop-factory_bot: false

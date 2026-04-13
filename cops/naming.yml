@@ -1,0 +1,32 @@
+Naming/BlockForwarding:
+  Enabled: true
+  EnforcedStyle: explicit
+
+Naming/InclusiveLanguage:
+  Enabled: true
+  CheckStrings: true
+
+Naming/MethodParameterName:
+  AllowedNames:
+    # default config from https://docs.rubocop.org/rubocop/1.11/cops_naming.html#configurable-attributes-9
+    - at
+    - by
+    - db
+    - id
+    - in
+    - io
+    - ip
+    - of
+    - 'on'
+    - os
+    - pp
+    - to
+    # additional custom allowed variable names
+    - e
+
+Naming/PredicateMethod:
+  Enabled: false
+
+Naming/RescuedExceptionsVariableName:
+  Enabled: true
+  PreferredName: exception

@@ -1,0 +1,6 @@
+# IDE-temps
+.idea/*
+*.sublime-*
+
+.history
+.vscode

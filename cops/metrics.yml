@@ -1,0 +1,46 @@
+Metrics/AbcSize:
+  Description: A calculated magnitude based on number of assignments, branches, and conditions.
+  Enabled: false
+  Reference: http://c2.com/cgi/wiki?AbcMetric
+
+Metrics/BlockLength:
+  Enabled: true
+  Exclude:
+    - 'Rakefile'
+    - '**/*.rake'
+    - 'test/**/*.rb'
+
+Metrics/BlockNesting:
+  Description: Avoid excessive block nesting
+  Enabled: false
+  StyleGuide: https://github.com/bbatsov/ruby-style-guide#three-is-the-number-thou-shalt-count
+
+Metrics/ClassLength:
+  Description: Avoid classes longer than 100 lines of code.
+  Enabled: false
+
+Metrics/CollectionLiteralLength:
+  Enabled: false
+
+Metrics/CyclomaticComplexity:
+  Description: A complexity metric that is strongly correlated to the number of test cases needed to validate a method.
+  Enabled: false
+
+Metrics/MethodLength:
+  Description: Avoid methods longer than 10 lines of code.
+  Enabled: false
+  Max: 10
+  StyleGuide: https://github.com/bbatsov/ruby-style-guide#short-methods
+
+Metrics/ModuleLength:
+  Description: Avoid modules longer than 100 lines of code.
+  Enabled: false
+
+Metrics/ParameterLists:
+  Description: Avoid parameter lists longer than three or four parameters.
+  Enabled: false
+  StyleGuide: https://github.com/bbatsov/ruby-style-guide#too-many-params
+
+Metrics/PerceivedComplexity:
+  Description: A complexity metric geared towards measuring complexity for a human reader.
+  Enabled: false

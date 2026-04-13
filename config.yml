@@ -1,0 +1,19 @@
+inherit_from:
+  - ./cops/capybara.yml
+  - ./cops/gemspec.yml
+  - ./cops/layout.yml
+  - ./cops/lint.yml
+  - ./cops/metrics.yml
+  - ./cops/minitest.yml
+  - ./cops/naming.yml
+  - ./cops/security.yml
+  - ./cops/style.yml
+  - ./cops/webit.yml
+
+require:
+  - ./lib/custom_cops
+
+plugins:
+  - rubocop-capybara
+  - rubocop-minitest
+  - rubocop-rake
