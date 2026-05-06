@@ -1,5 +1,6 @@
 inherit_from:
   - ./cops/capybara.yml
+  - ./cops/capybara/rspec.yml
   - ./cops/gemspec.yml
   - ./cops/layout.yml
   - ./cops/lint.yml
