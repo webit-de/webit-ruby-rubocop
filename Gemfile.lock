@@ -3,7 +3,7 @@ PATH
   specs:
     webit-ruby-rubocop (3.1.16)
       rubocop (>= 1.84.0)
-      rubocop-capybara (>= 2.22.0)
+      rubocop-capybara (>= 2.23.0)
       rubocop-minitest (>= 0.35.0)
       rubocop-rake (>= 0.5.1)
 
@@ -38,9 +38,9 @@ GEM
     rubocop-ast (1.49.0)
       parser (>= 3.3.7.2)
       prism (~> 1.7)
-    rubocop-capybara (2.22.1)
+    rubocop-capybara (2.23.0)
       lint_roller (~> 1.1)
-      rubocop (~> 1.72, >= 1.72.1)
+      rubocop (~> 1.81)
     rubocop-minitest (0.38.2)
       lint_roller (~> 1.1)
       rubocop (>= 1.75.0, < 2.0)

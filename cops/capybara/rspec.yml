@@ -1,0 +1,26 @@
+Capybara/RSpec/CurrentPathExpectation:
+  Enabled: true
+
+Capybara/RSpec/HaveContent:
+  Enabled: true
+
+Capybara/RSpec/HaveSelector:
+  Enabled: true
+
+Capybara/RSpec/MatchStyle:
+  Enabled: true
+
+Capybara/RSpec/NegationMatcher:
+  Enabled: true
+
+Capybara/RSpec/NegationMatcherAfterVisit:
+  Enabled: true
+
+Capybara/RSpec/PredicateMatcher:
+  Enabled: true
+
+Capybara/RSpec/SpecificMatcher:
+  Enabled: true
+
+Capybara/RSpec/VisibilityMatcher:
+  Enabled: true
