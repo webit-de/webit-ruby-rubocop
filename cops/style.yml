@@ -106,6 +106,9 @@ Style/FileEmpty:
 Style/FileNull:
   Enabled: true
 
+Style/FileOpen:
+  Enabled: true
+
 Style/FileRead:
   Enabled: true
 
@@ -191,6 +194,9 @@ Style/MapCompactWithConditionalBlock:
 Style/MapIntoArray:
   Enabled: true
 
+Style/MapJoin:
+  Enabled: true
+
 Style/MapToHash:
   Enabled: true
 
@@ -231,6 +237,9 @@ Style/NumberedParametersLimit:
 Style/ObjectThen:
   Enabled: true
 
+Style/OneClassPerFile:
+  Enabled: true
+
 Style/OneLineConditional:
   Description: Favor the ternary operator(?:) over if/then/else/end constructs.
   Enabled: false
@@ -250,10 +259,19 @@ Style/ParenthesesAroundCondition:
   AllowInMultilineConditions: true
   AllowSafeAssignment: true
 
+Style/PartitionInsteadOfDoubleSelect:
+  Enabled: true
+
 Style/PercentLiteralDelimiters:
   Enabled: false
 
+Style/PredicateWithKind:
+  Enabled: true
+
 Style/QuotedSymbols:
+  Enabled: true
+
+Style/ReduceToHash:
   Enabled: true
 
 Style/RedundantArgument:
@@ -304,6 +322,9 @@ Style/RedundantInterpolationUnfreeze:
 Style/RedundantLineContinuation:
   Enabled: true
 
+Style/RedundantMinMaxBy:
+  Enabled: true
+
 Style/RedundantRegexpArgument:
   Enabled: true
 
@@ -333,6 +354,12 @@ Style/ReverseFind:
   Enabled: true
 
 Style/SafeNavigationChainLength:
+  Enabled: true
+
+Style/SelectByKind:
+  Enabled: true
+
+Style/SelectByRange:
   Enabled: true
 
 Style/SelectByRegexp:
@@ -369,6 +396,9 @@ Style/SuperWithArgsParentheses:
   Enabled: true
 
 Style/SwapValues:
+  Enabled: true
+
+Style/TallyMethod:
   Enabled: true
 
 Style/WhileUntilModifier:

@@ -19,6 +19,9 @@ Lint/ConstantReassignment:
 Lint/CopDirectiveSyntax:
   Enabled: true
 
+Lint/DataDefineOverride:
+  Enabled: true
+
 Lint/DeprecatedConstants:
   Enabled: true
 
@@ -137,6 +140,9 @@ Lint/UnmodifiedReduceAccumulator:
   Enabled: true
 
 Lint/UnreachableCode:
+  Enabled: true
+
+Lint/UnreachablePatternBranch:
   Enabled: true
 
 Lint/UselessConstantScoping:
