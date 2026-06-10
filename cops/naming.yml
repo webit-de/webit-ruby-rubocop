@@ -8,11 +8,14 @@ Naming/InclusiveLanguage:
 
 Naming/MethodParameterName:
   AllowedNames:
-    # default config from https://docs.rubocop.org/rubocop/1.11/cops_naming.html#configurable-attributes-9
+    # default config from https://docs.rubocop.org/rubocop/latest/cops_naming.html#configurable-attributes-namingmethodparametername
+    - as
     - at
     - by
+    - cc
     - db
     - id
+    - if
     - in
     - io
     - ip
