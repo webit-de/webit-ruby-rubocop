@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name        = "webit-ruby-rubocop"
-  spec.version     = "3.1.20"
+  spec.version     = "3.1.21"
   spec.authors     = ["Roland Schwarzer", "Martin Schrader"]
   spec.email       = ["schwarzer@webit.de"]
 
