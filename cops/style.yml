@@ -66,6 +66,9 @@ Style/DataInheritance:
 Style/DigChain:
   Enabled: true
 
+Style/DirectiveScope:
+  Enabled: true
+
 Style/DirEmpty:
   Enabled: true
 
@@ -399,6 +402,9 @@ Style/SwapValues:
   Enabled: true
 
 Style/TallyMethod:
+  Enabled: true
+
+Style/TimeNow:
   Enabled: true
 
 Style/WhileUntilModifier:

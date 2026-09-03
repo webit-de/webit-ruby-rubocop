@@ -7,6 +7,9 @@ Lint/AmbiguousOperatorPrecedence:
 Lint/AmbiguousRange:
   Enabled: true
 
+Lint/ArgumentMismatch:
+  Enabled: true
+
 Lint/ArrayLiteralInRegexp:
   Enabled: true
 
@@ -29,6 +32,9 @@ Lint/DeprecatedOpenSSLConstant:
   Enabled: true
 
 Lint/DuplicateBranch:
+  Enabled: true
+
+Lint/DeprecatedReference:
   Enabled: true
 
 Lint/DuplicateElsifCondition:
@@ -76,6 +82,9 @@ Lint/MixedCaseRange:
 Lint/MixedRegexpCaptureTypes:
   Enabled: true
 
+Lint/NameTypo:
+  Enabled: true
+
 Lint/NonAtomicFileOperation:
   Enabled: true
 
@@ -116,6 +125,9 @@ Lint/SharedMutableDefault:
   Enabled: true
 
 Lint/StructNewOverride:
+  Enabled: true
+
+Lint/SuperArgumentMismatch:
   Enabled: true
 
 Lint/SuppressedExceptionInNumberConversion:
