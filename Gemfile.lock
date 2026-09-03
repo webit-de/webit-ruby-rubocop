@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    webit-ruby-rubocop (3.1.21)
+    webit-ruby-rubocop (3.2.0)
       rubocop (~> 1.90.0)
       rubocop-capybara (~> 3.0.0)
       rubocop-minitest (~> 0.40.0)
