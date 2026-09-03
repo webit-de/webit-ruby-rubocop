@@ -1,7 +1,7 @@
-Capybara/AssertStyle:
+Capybara/AmbiguousClick:
   Enabled: true
 
-Capybara/ClickLinkOrButtonStyle:
+Capybara/AssertStyle:
   Enabled: true
 
 Capybara/FindAllFirst:
